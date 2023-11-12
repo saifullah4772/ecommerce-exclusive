@@ -8,7 +8,7 @@ const Profile = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <section className="py-20">
+    <section className="py-20 bg-neutral-100">
       <div className="container">
         <div className="flex justify-between items-center">
           <div className="flex justify-start items-center gap-4">
@@ -24,8 +24,8 @@ const Profile = () => {
             </p>
           </div>
         </div>
-        <main className="py-16 grid grid-cols-4">
-          <div>
+        <main className="py-16 grid grid-cols-4 gap-8">
+          <div className="bg-white p-8">
             <div className="pb-3">
               <h3 className="font-semibold">Manage My Account</h3>
               <ul className="pl-8 p-3 text-neutral-400">
@@ -60,7 +60,7 @@ const Profile = () => {
               </ul>
             </div>
           </div>
-          <div className="p-8 px-16 shadow-[0px_0px_5px_rgba(0,0,0,0.3)] col-span-3">
+          <div className="p-8 px-16 shadow-[0px_0px_5px_rgba(0,0,0,0.3)] col-span-3 bg-white">
             <h2 className="text-xl font-semibold text-gajjar">
               Edit Your Profile
             </h2>

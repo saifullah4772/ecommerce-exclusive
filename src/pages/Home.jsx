@@ -16,7 +16,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <>
+    <main className="bg-neutral-100">
       <Hero />
       <Today />
       <Category />
@@ -25,7 +25,7 @@ const Home = () => {
       <Products />
       <Arrival />
       <Delivery />
-    </>
+    </main>
   );
 };
 

@@ -10,10 +10,10 @@ const Wishlist = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <>
+    <main className="bg-neutral-100">
       <Wish />
       <ForYou />
-    </>
+    </main>
   );
 };
 

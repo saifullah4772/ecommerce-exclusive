@@ -10,7 +10,7 @@ const Contact = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <section className="py-20">
+    <section className="py-20 bg-neutral-100">
       <div className="container">
         <div className="flex justify-start items-center gap-4">
           <Link to="/" className="text-neutral-400">
@@ -20,7 +20,7 @@ const Contact = () => {
           <span>Contact</span>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-16">
-          <div className="shadow-lg p-8">
+          <div className="shadow-lg p-8 bg-white">
             <div className="flex flex-col justify-start items-start gap-6">
               <div className="flex justify-start items-center gap-4 font-bold text-lg">
                 <span className="w-10 h-10 bg-gajjar flex justify-center items-center rounded-full text-white">
@@ -50,7 +50,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="col-span-1 lg:col-span-2 p-8 shadow-lg">
+          <div className="col-span-1 lg:col-span-2 p-8 shadow-lg bg-white">
             <form
               action=""
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8"

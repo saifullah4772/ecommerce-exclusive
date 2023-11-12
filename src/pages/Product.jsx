@@ -9,7 +9,7 @@ const Product = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <section className="pt-12 pb-28">
+    <section className="pt-12 pb-28 bg-neutral-100">
       <div className="container">
         <div className="flex justify-start items-center gap-4 pt-8">
           <Link to="/" className="text-neutral-400">

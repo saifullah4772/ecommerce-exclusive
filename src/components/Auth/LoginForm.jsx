@@ -15,13 +15,13 @@ const LoginForm = () => {
             type="text"
             name="email"
             placeholder="Email or Phone Number"
-            className="border-b border-neutral-300 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
+            className="border-b border-neutral-300 bg-neutral-100 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
           />
           <input
             type="password"
             name="password"
             placeholder="Password"
-            className="border-b border-neutral-300 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
+            className="border-b border-neutral-300 bg-neutral-100 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
           />
           <div className="w-full flex justify-between items-center">
             <button className="bg-gajjar p-4 px-12 text-white">Log In</button>

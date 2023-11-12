@@ -19,7 +19,7 @@ const Cart = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <section className="py-20">
+    <section className="py-20 bg-neutral-100">
       <div className="container">
         <div className="flex justify-start items-center gap-4">
           <Link to="/" className="text-neutral-400">
@@ -31,7 +31,7 @@ const Cart = () => {
         <div className="px-2 overflow-y-auto">
           <table className="w-full border-separate border-spacing-y-16">
             <thead>
-              <tr className="shadow-[0px_0px_5px_rgba(0,0,0,0.2)]">
+              <tr className="shadow-[0px_0px_5px_rgba(0,0,0,0.2)] bg-white">
                 <th className="p-6 text-left font-semibold">Product</th>
                 <th className="p-6 text-left font-semibold">Price</th>
                 <th className="p-6 text-left font-semibold">Quantity</th>
@@ -39,7 +39,7 @@ const Cart = () => {
               </tr>
             </thead>
             <tbody>
-              <tr className="shadow-[0px_0px_5px_rgba(0,0,0,0.2)]">
+              <tr className="shadow-[0px_0px_5px_rgba(0,0,0,0.2)] bg-white">
                 <td className="p-6">
                   <div className="flex justify-start items-center gap-5 relative">
                     <img
@@ -69,7 +69,7 @@ const Cart = () => {
                 </td>
                 <td className="p-6">$650</td>
               </tr>
-              <tr className="shadow-[0px_0px_5px_rgba(0,0,0,0.2)]">
+              <tr className="shadow-[0px_0px_5px_rgba(0,0,0,0.2)] bg-white">
                 <td className="p-6">
                   <div className="flex justify-start items-center gap-5 relative">
                     <img
@@ -105,11 +105,11 @@ const Cart = () => {
         <div className="flex justify-between items-center">
           <Link
             to="/products"
-            className="p-4 sm:px-12 rounded-md border border-neutral-400"
+            className="p-4 sm:px-12 rounded-md border transition-all duration-300 border-neutral-400 hover:bg-neutral-800 hover:border-neutral-800 hover:text-white"
           >
             Return To Shop
           </Link>
-          <button className="p-4 px-6 sm:px-12 rounded-md border border-neutral-400">
+          <button className="p-4 px-6 sm:px-12 rounded-md border transition-all duration-300 border-neutral-400 hover:bg-neutral-800 hover:border-neutral-800 hover:text-white">
             Update Cart
           </button>
         </div>
@@ -120,7 +120,7 @@ const Cart = () => {
               className="border border-neutral-500 p-3 focus:outline-none rounded-md w-full sm:w-auto"
               placeholder="Coupon Code"
             />
-            <button className="p-3 px-6 lg:px-12 rounded-md text-white bg-gajjar">
+            <button className="p-3 px-6 lg:px-12 rounded-md text-white bg-gajjar hover:opacity-80">
               Apply Coupon
             </button>
           </div>
@@ -144,7 +144,7 @@ const Cart = () => {
                 <span>$650</span>
               </div>
               <div className="flex justify-center items-center w-full">
-                <button className="p-3 rounded-md px-8 bg-gajjar text-white">
+                <button className="p-3 rounded-md px-8 bg-gajjar text-white hover:opacity-80">
                   Process to checkout
                 </button>
               </div>

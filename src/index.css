@@ -94,3 +94,9 @@ body {
   border: 2px solid white;
   margin-left: 1rem !important;
 }
+
+.faqs ul {
+  font-weight: bold;
+  padding: 1rem;
+  list-style-type: decimal;
+}

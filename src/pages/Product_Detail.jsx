@@ -11,7 +11,7 @@ const Product_Detail = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <section className="py-20">
+    <section className="py-20 bg-neutral-100">
       <Details />
       <Related />
     </section>

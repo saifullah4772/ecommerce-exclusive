@@ -12,7 +12,7 @@ const About = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <section className="pt-20">
+    <section className="pt-20 bg-neutral-100">
       <div className="container">
         <div className="flex justify-start items-center gap-4">
           <Link to="/" className="text-neutral-400">

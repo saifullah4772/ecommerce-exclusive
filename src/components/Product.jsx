@@ -19,7 +19,7 @@ const Product = ({
 }) => {
   return (
     <div className="h-80">
-      <div className="h-[75%] bg-neutral-200 flex justify-center items-center relative product">
+      <div className="h-[75%] bg-white shadow-2xl flex justify-center items-center relative product">
         <img src={imgsrc} className="h-1/2 object-cover" />
         <div className="absolute top-4 left-4 flex flex-col justify-center items-center gap-2">
           {profit && (

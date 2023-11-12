@@ -14,26 +14,26 @@ const SignUpForm = () => {
             type="text"
             name="name"
             placeholder="Name"
-            className="border-b border-neutral-300 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
+            className="border-b border-neutral-300 bg-neutral-100 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
           />
           <input
             type="text"
             name="email"
             placeholder="Email or Phone Number"
-            className="border-b border-neutral-300 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
+            className="border-b border-neutral-300 bg-neutral-100 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
           />
           <input
             type="password"
             name="password"
             id=""
             placeholder="Password"
-            className="border-b border-neutral-300 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
+            className="border-b border-neutral-300 bg-neutral-100 w-full pb-2 outline-none focus:border-neutral-600 transition-all duration-300"
           />
           <div className="w-full">
-            <button className="bg-gajjar w-full p-4 text-white">
+            <button className="bg-gajjar w-full p-4 text-white hover:opacity-80">
               Create Account
             </button>
-            <button className="border border-neutral-400 mt-4 rounded-md p-4 w-full flex justify-center items-center gap-3">
+            <button className="border border-neutral-400 mt-4 bg-white rounded-md p-4 w-full flex justify-center items-center gap-3">
               <img src="/images/icon-google.png" alt="" />
               <span>Sign up with Google</span>
             </button>
