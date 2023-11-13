@@ -100,3 +100,9 @@ body {
   padding: 1rem;
   list-style-type: decimal;
 }
+
+.inner-link-text::before {
+  content: "/";
+  padding-right: 1rem;
+  color: rgb(163, 163, 163);
+}

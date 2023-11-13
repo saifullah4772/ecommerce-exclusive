@@ -144,9 +144,12 @@ const Cart = () => {
                 <span>$650</span>
               </div>
               <div className="flex justify-center items-center w-full">
-                <button className="p-3 rounded-md px-8 bg-gajjar text-white hover:opacity-80">
+                <Link
+                  to="/checkout"
+                  className="p-3 rounded-md px-8 bg-gajjar text-white hover:opacity-80"
+                >
                   Process to checkout
-                </button>
+                </Link>
               </div>
             </div>
           </div>

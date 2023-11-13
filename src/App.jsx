@@ -20,6 +20,7 @@ import Terms from "./pages/Terms";
 import Product from "./pages/Product";
 import Wishlist from "./pages/Wishlist";
 import FAQPage from "./pages/Faq";
+import Checkout from "./pages/Checkout";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -37,6 +38,7 @@ const App = () => {
         <Route path="profile" element={<Profile />} />
         <Route path="privacy-policy" element={<Privacy />} />
         <Route path="terms" element={<Terms />} />
+        <Route path="checkout" element={<Checkout />} />
         <Route path="faq" element={<FAQPage />} />
         <Route path="*" element={<NotFound />} />
       </Route>
